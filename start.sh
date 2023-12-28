@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# 物品[荆棘]没有完成战斗中伤害增加以及isrange的计算,[魔药]没做
 # 欢迎信息
 echo "欢迎来到战斗游戏！请输入你的名称："
 read player_name
@@ -14,8 +14,9 @@ player_attack=20
 player_critical_rate=10 # 玩家暴击率为10%
 player_critical_damage=2 # 玩家暴击伤害加成为2倍
 sblpy=5
-issbpy=false
-
+isdj1=false
+isdj2=false
+range=0
 # 敌人属性
 enemy_health=80
 enemy_attack=15
@@ -185,18 +186,23 @@ do
     do
 	if [ $level == $dblevel ]; then
 	echo "选择一个道具:"
-	echo "1. 空"
+	echo "1. 荆棘(使用后3层内受到的伤害增加100%,效果结束后增加30%闪避率,持续5层)"
+	echo "2. 魔药(使用后全属性增加100%,持续1层)"
 	echo "2. 我!不!要!"
 	read boostt
 	case $boostt in
 	1)
-	   echo "未完成"
-       break
+	   echo "获得荆棘(物品不叠加)"
+	dj1=true
+       	break
 	  ;;
-	2)
+	3)
 	   echo "你很勇哦"
        break
 	  ;;
+	2)
+	   echo "魔药(物品不叠加)"
+	   dj2=true
 	*)
 	   echo "乱点"
 	  ;;
@@ -216,7 +222,14 @@ do
 
                 level=$((level + 1)) # 进入下一层
                 echo "进入第 $level 层，敌人变得更强了！"
-
+	if [ $sxrange == 0 ];then
+	else
+	sxrange=$((sxrange -1))
+	fi
+	if [ $isrange == 0 ];then
+	else
+	isrange=$((isrange -1))
+	fi
                 # 重置双方生命值
                 # player_health=100
                 # tenemy_health=$((tenemy_health * level))
@@ -228,7 +241,42 @@ do
             ;;
         2)
             # 使用物品
-            echo "你没有任何物品可使用。"
+	if [ $dj1 = false ]; then
+		if [ $dj2 = false ]; then
+                		echo "你没有任何物品可使用。"
+		fi
+	else
+		echo "1. 荆棘"
+		if [ $dj2 = true ]; then
+			echo "2. 魔药"
+		fi
+		echo "0. 退出"
+		read wp
+		case $wp in
+			1)
+			    if [ $dj1 = false ]; then
+			    	echo "你没有这个物品"
+			    else
+			    	isrange=0
+				sxrange=0
+				echo "使用成功"
+			    fi
+			    ;;
+			2)
+			    if [ $dj2 = false ]; then
+			    	echo "你没有这个物品"
+			    else
+			    	isrange=0
+				sxrange=0
+				echo "使用成功"
+			    fi
+			    ;;
+			*)
+			    ;;
+			   
+		esac
+			
+	fi
             ;;
         0)
             # 退出游戏
