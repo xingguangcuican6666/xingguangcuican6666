@@ -188,7 +188,11 @@ do
 	echo "选择一个道具:"
 	echo "1. 荆棘(使用后3层内受到的伤害增加100%,效果结束后增加30%闪避率,持续5层)"
 	echo "2. 魔药(使用后全属性增加100%,持续1层)"
+<<<<<<< HEAD
 	echo "3. 我!不!要!"
+=======
+	echo "2. 我!不!要!"
+>>>>>>> c105bd0937b57835808433edc1aaec88fb414e8f
 	read boostt
 	case $boostt in
 	1)
@@ -203,7 +207,10 @@ do
 	2)
 	   echo "魔药(物品不叠加)"
 	   dj2=true
+<<<<<<< HEAD
 	   ;;
+=======
+>>>>>>> c105bd0937b57835808433edc1aaec88fb414e8f
 	*)
 	   echo "乱点"
 	  ;;
@@ -226,7 +233,14 @@ do
 
                 level=$((level + 1)) # 进入下一层
                 echo "进入第 $level 层，敌人变得更强了！"
-
+	if [ $sxrange == 0 ];then
+	else
+	sxrange=$((sxrange -1))
+	fi
+	if [ $isrange == 0 ];then
+	else
+	isrange=$((isrange -1))
+	fi
                 # 重置双方生命值
                 # player_health=100
                 # tenemy_health=$((tenemy_health * level))
