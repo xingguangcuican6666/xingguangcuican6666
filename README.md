@@ -50,7 +50,7 @@
 
 ## 🌟 Featured Projects
 
-### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck) ⭐ 19
+### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck) ⭐ 30
 > **Kotlin · Android**
 >
 > A powerful Android root-detection tool that finds `su` and root access using multiple methods.
