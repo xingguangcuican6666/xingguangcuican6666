@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm xingguangcuican6666
 
-### Android Security · Kernel/Root Research · System Engineering
+### AnyBase Kernel (ABK) · Android Security · System Engineering
 
 [![GitHub followers](https://img.shields.io/github/followers/xingguangcuican6666?label=Followers&style=social)](https://github.com/xingguangcuican6666)
 [![GitHub stars](https://img.shields.io/github/stars/xingguangcuican6666?affiliations=OWNER&label=Total%20Stars&style=social)](https://github.com/xingguangcuican6666)
@@ -14,7 +14,8 @@
 ## 🙋 About Me
 
 - 🔐 Focused on **Android security**, **root detection / root solutions**, and low-level system work
-- 🧩 Recently active in **AnyBase Kernel** ecosystem development
+- 🧩 Core focus: **AnyBase Kernel (ABK)** ecosystem development
+- 📈 ABK 主项目生态活跃，fork 已过百（社区驱动）
 - 🐧 Daily environment: **Arch Linux + Hyprland**
 - ⚙️ Building across Kotlin / C / Shell / Batch / C++
 - 🌏 中文母语，也可以英语交流
@@ -23,25 +24,19 @@
 
 ## 🔭 Current Focus
 
+- AnyBase Kernel (ABK) modules and related workflows
 - Android root/security tooling
-- AnyBase Kernel modules and related workflows
 - UEFI / boot / device-side low-level experiments
 
 ---
 
 ## 🌟 Featured Projects (Re-evaluated)
 
-### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck) · ⭐ 40
-> **Kotlin · Android**
->
-> Android root-detection tool with multi-strategy `su`/root checks, designed for security testing and device posture validation.
-
----
-
 ### 🧱 [ABK_Externel_Module](https://github.com/xingguangcuican6666/ABK_Externel_Module)
 > **Shell**
 >
 > AnyBase Kernel external module template for quickly scaffolding and integrating kernel-side extensions.
+> Positioned as ABK ecosystem基础模块之一。
 
 ---
 
@@ -49,6 +44,14 @@
 > **Shell**
 >
 > DroidSpaces module targeting AnyBase Kernel integration and modular deployment.
+> 面向 ABK 生态的模块化扩展。
+
+---
+
+### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck) · ⭐ 40
+> **Kotlin · Android**
+>
+> Android root-detection tool with multi-strategy `su`/root checks, designed for security testing and device posture validation.
 
 ---
 
