@@ -15,7 +15,6 @@
 
 - 🔐 Focused on **Android security**, **root detection / root solutions**, and low-level system work
 - 🧩 Core focus: **ABK** ecosystem development
-- 📈 ABK main project ecosystem is highly active, with 100+ forks
 - 🐧 Daily environment: **Arch Linux + Hyprland**
 - ⚙️ Building across Kotlin / C / Shell / Batch / C++
 - 🌏 中文母语，也可以英语交流
@@ -35,8 +34,8 @@
 ### 🧱 [ABK](https://github.com/xingguangcuican6666/ABK)
 > **Kernel / System**
 >
-> Core ABK project and ecosystem anchor.
-> Community-active project with 100+ forks.
+> Core ABK project for Android low-level and kernel-related development.
+> Serves as the base repository around which ABK ecosystem modules are built.
 
 ---
 
