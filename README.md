@@ -59,13 +59,6 @@
 
 ---
 
-### 🛠️ [edk2-unlock-uefi-sm8650](https://github.com/xingguangcuican6666/edk2-unlock-uefi-sm8650)
-> **C**
->
-> UEFI-related unlocking experiments for SM8650 platform.
-
----
-
 ### 📱 [Linux_Authentication_Gateway](https://github.com/xingguangcuican6666/Linux_Authentication_Gateway)
 > **Kotlin · Python**
 >
