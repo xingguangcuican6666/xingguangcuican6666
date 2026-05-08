@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm xingguangcuican6666
 
-### AnyBase Kernel (ABK) · Android Security · System Engineering
+### ABK · Android Security · System Engineering
 
 [![GitHub followers](https://img.shields.io/github/followers/xingguangcuican6666?label=Followers&style=social)](https://github.com/xingguangcuican6666)
 [![GitHub stars](https://img.shields.io/github/stars/xingguangcuican6666?affiliations=OWNER&label=Total%20Stars&style=social)](https://github.com/xingguangcuican6666)
@@ -14,8 +14,8 @@
 ## 🙋 About Me
 
 - 🔐 Focused on **Android security**, **root detection / root solutions**, and low-level system work
-- 🧩 Core focus: **AnyBase Kernel (ABK)** ecosystem development
-- 📈 ABK 主项目生态活跃，fork 已过百（社区驱动）
+- 🧩 Core focus: **ABK** ecosystem development
+- 📈 ABK main project ecosystem is highly active, with 100+ forks
 - 🐧 Daily environment: **Arch Linux + Hyprland**
 - ⚙️ Building across Kotlin / C / Shell / Batch / C++
 - 🌏 中文母语，也可以英语交流
@@ -24,43 +24,43 @@
 
 ## 🔭 Current Focus
 
-- AnyBase Kernel (ABK) modules and related workflows
+- ABK modules and related workflows
 - Android root/security tooling
 - UEFI / boot / device-side low-level experiments
 
 ---
 
-## 🌟 Featured Projects (Re-evaluated)
+## 🌟 Featured Projects
 
-### 🧱 [ABK_Externel_Module](https://github.com/xingguangcuican6666/ABK_Externel_Module)
-> **Shell**
+### 🧱 [ABK](https://github.com/xingguangcuican6666/ABK)
+> **Kernel / System**
 >
-> AnyBase Kernel external module template for quickly scaffolding and integrating kernel-side extensions.
-> Positioned as ABK ecosystem基础模块之一。
+> Core ABK project and ecosystem anchor.
+> Community-active project with 100+ forks.
 
 ---
 
-### 🧩 [DroidSpaces-OSS-module](https://github.com/xingguangcuican6666/DroidSpaces-OSS-module) · ⭐ 2
+### 🧩 [DroidSpaces-OSS-module](https://github.com/xingguangcuican6666/DroidSpaces-OSS-module)
 > **Shell**
 >
 > DroidSpaces module targeting AnyBase Kernel integration and modular deployment.
-> 面向 ABK 生态的模块化扩展。
+> Modular extension work for the ABK ecosystem.
 
 ---
 
-### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck) · ⭐ 40
+### 🔍 [AnyCheck](https://github.com/xingguangcuican6666/AnyCheck)
 > **Kotlin · Android**
 >
 > Android root-detection tool with multi-strategy `su`/root checks, designed for security testing and device posture validation.
 
 ---
 
-### 🔓 [xiaomi_nobl_root_repo](https://github.com/xingguangcuican6666/xiaomi_nobl_root_repo) · ⭐ 5
+### 🔓 [xiaomi_nobl_root_repo](https://github.com/xingguangcuican6666/xiaomi_nobl_root_repo)
 > Root approach research for Xiaomi devices with locked bootloaders.
 
 ---
 
-### 🛠️ [edk2-unlock-uefi-sm8650](https://github.com/xingguangcuican6666/edk2-unlock-uefi-sm8650) · ⭐ 6
+### 🛠️ [edk2-unlock-uefi-sm8650](https://github.com/xingguangcuican6666/edk2-unlock-uefi-sm8650)
 > **C**
 >
 > UEFI-related unlocking experiments for SM8650 platform.
