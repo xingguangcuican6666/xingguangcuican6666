@@ -86,7 +86,11 @@
 
 ## 📊 GitHub Stats
 
+
 <div align="center">
+
+## Visitors
+![Visitor](https://count.getloli.com/@xingguangcuican6666?name=xingguangcuican6666&theme=asoul&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 ![GitHub Stats](https://github-readme-stats-eight-mu.vercel.app/api?username=xingguangcuican6666&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=xingguangcuican6666&theme=tokyonight&hide_border=true)
